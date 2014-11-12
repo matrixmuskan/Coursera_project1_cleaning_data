@@ -1,2 +1,27 @@
 'Code book for this analysis are as follows'
 
+dataframes
+
+features -> feature.txt
+train -> train.txt
+train_labels ->y_train.txt
+subject_labels - > subject_train.txt
+
+column name of train changed from feature data frame
+activity_label and subject_label added to train data frame
+
+test data frames 
+test -> test.txt
+test_labels = y_test.txt
+subject_labels_test = subject_test.txt
+
+columns of test changed from features data frame 
+activity labe and subject_label added to test data frame
+
+combine dataframe added by rbind() funtion in R
+
+grep functions used to select column names and modified data frame filtered_combine_activity created
+
+using aggregate funciton, means_subject_activity data frame created for each subject and column means for the features
+wrote means_subject_activity to the table 
+
